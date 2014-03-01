@@ -8,15 +8,14 @@
 	<a href="http://github.com/bredele/lego">lego</a>
 	<script src="../build/build.js"></script>
 	<script>
-	   var lego = require('lego'),
-	   		 refs = require('var-brick');
+	   var lego = require('lego');
 
-	   	lego(document.body)
-	   	  .add('var', refs)
+	   var view = lego(document.body)
+	   	  .add('var', require('node-brick'))
 	   	  .build();
 
-	   	var link = refs('link');
-	   	alert('link:' + link.href);   		 
+	   alert('link:' + view.node('link').href); 
+  		 
 	</script>
 </body>
 </html>

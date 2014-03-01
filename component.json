@@ -1,11 +1,13 @@
 {
-  "name": "var-brick",
-  "repo": "bredele/var-brick",
+  "name": "node-brick",
+  "repo": "bredele/node-brick",
   "description": "Lego plugin to reference dom nodes",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
-  "development": {},
+  "development": {
+    "bredele/lego" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
