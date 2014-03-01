@@ -1,8 +1,16 @@
 
 /**
- * Expose 'node-brick'
+ * Expose 'nodes-brick'
  */
 
-module.exports = function(el, expr){
-	//should have an initialize function
+module.exports = plugin;
+
+
+function plugin(el, expr) {
+	//this.nodes = this.nodes || {}
+	this.nodes[expr] = el;
+}
+
+plugin.init = function(view) {
+	view.nodes = {};
 };

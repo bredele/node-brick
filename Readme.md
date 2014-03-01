@@ -1,23 +1,44 @@
+# nodes-plugin
 
-# var-brick
-
-  Lego plugin to reference dom nodes
+  [Lego](https://github.com/bredele/lego) plugin to reference your dom nodes without using any query selections.
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+with [component](http://github.com/component/component):
 
-    $ component install bredele/var-brick
+    $ component install bredele/nodes-brick
 
-## API
+with [nodejs](http://nodejs.org):
 
+    $ component install nodes-brick
 
+## Usage
+
+First, add the plugin to your view (see [lego](https://github.com/bredele/lego) to know more about views):
+
+```js
+view.add('var', require('nodes-brick'));
+```
+
+## Basic
+
+```html
+<a var="link"></a>
+```
+
+The plugin will create a `nodes` reference that holds your dom nodes.
+
+```js
+view.nodes.link; //print the link
+```
+
+see [live example](https://github.com/bredele/nodes-brick/tree/master/example)
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 Olivier Wietrich <olivier.wietrich@gmail.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal

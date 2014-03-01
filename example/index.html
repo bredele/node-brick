@@ -5,7 +5,7 @@
 	<title>Var brick</title>
 </head>
 <body>
-	<a href="http://github.com/bredele/lego">lego</a>
+	<a var="link" href="http://github.com/bredele/lego">lego</a>
 	<script src="../build/build.js"></script>
 	<script>
 	   var lego = require('lego');
@@ -14,7 +14,7 @@
 	   	  .add('var', require('node-brick'))
 	   	  .build();
 
-	   alert('link:' + view.node('link').href); 
+	   alert('link:' + view.nodes.link.href); 
   		 
 	</script>
 </body>

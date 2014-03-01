@@ -1,6 +1,6 @@
 {
-  "name": "node-brick",
-  "repo": "bredele/node-brick",
+  "name": "nodes-brick",
+  "repo": "bredele/nodes-brick",
   "description": "Lego plugin to reference dom nodes",
   "version": "0.0.1",
   "keywords": [],
