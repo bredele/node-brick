@@ -1,4 +1,4 @@
-# nodes-plugin
+# nodes-brick
 
   [Lego](https://github.com/bredele/lego) plugin to reference your dom nodes without using any query selections.
 
