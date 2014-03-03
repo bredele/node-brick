@@ -1,12 +1,12 @@
 {
   "name": "nodes-brick",
   "repo": "bredele/nodes-brick",
-  "description": "Lego plugin to reference dom nodes",
+  "description": "Brick plugin to reference dom nodes",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
   "development": {
-    "bredele/lego" : "*"
+    "bredele/brick" : "*"
   },
   "license": "MIT",
   "main": "index.js",

@@ -1,6 +1,6 @@
 # nodes-brick
 
-  [Lego](https://github.com/bredele/lego) plugin to reference your dom nodes without using any query selections.
+  [Brick](https://github.com/bredele/brick) plugin to reference your dom nodes without using any query selections.
 
 ## Installation
 
@@ -14,7 +14,7 @@ with [nodejs](http://nodejs.org):
 
 ## Usage
 
-First, add the plugin to your view (see [lego](https://github.com/bredele/lego) to know more about views):
+First, add the plugin to your view (see [brick](https://github.com/bredele/brick) to know more about views):
 
 ```js
 view.add('var', require('nodes-brick'));
